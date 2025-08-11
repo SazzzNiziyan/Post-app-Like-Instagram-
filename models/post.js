@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 
 const userSchema = mongoose.Schema({
     user: { 
-        type : mongoose.Schema.types.ObjectId,
+        type : mongoose.Schema.Types.ObjectId,
         ref: "user"
     },
     date: {
@@ -13,8 +13,8 @@ const userSchema = mongoose.Schema({
     },
     content: String,
     likes: [
-         {type : mongoose.Schema.types.ObjectId, ref: "user"}
+         {type : mongoose.Schema.Types.ObjectId, ref: "user"}
     ]
 })
 
-module.exports = mongoose.model('User', userSchema);
+module.exports = mongoose.model('user', userSchema);
