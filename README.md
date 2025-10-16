@@ -1,7 +1,7 @@
 HELLO!!
 
 
-# Post App Like Instagram
+# Post App Like Instagram...
 
 A simple social media app inspired by Instagram. This project allows users to create accounts, upload posts (with images), like and comment on posts, and follow other users. Built for learning purposes and as a foundation for social networking projects.
 
